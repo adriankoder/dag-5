@@ -1,48 +1,62 @@
-body {
+body
+{
 	margin: 0;
+	background-color: rgb(57, 57, 157);
 }
 
-.bilde1 {
+.bilde1
+{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	height: 100vh;
-	background-image: url(andini-forskrekket.jpg);
-	background-size:contain;
-	background-attachment:fixed;
-}
-
-.bilde2 {
-	height: 100vh;
-	background-image: url(andini-med-kanin.jpg);;
+	background-image: url(test.jpg);;
 	background-size:cover;
-	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment:fixed;
 }
 
+.bilde2 
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(f65f873a-36f6-45af-bcbb-d396284aea62.jpg);;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+
 .bilde3 {
-	height: 200vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; /* Sett min-høyde i stedet for høyde */
+	height: auto; /* La høyden tilpasse seg dynamisk */
 	background-image: url(andini-med-tørkle.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 }
 
 .section {
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue; /* Dette setter bakgrunnsfargen */
 }
 
-.title {
+
+.title
+{
 	display: inline-block;
-	padding: 7px;
+	padding: 0px;
 	background-color: black;
-	color: white;
-	font-size: 46px;
+	font-size: 0px;
 }
